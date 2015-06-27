@@ -14,6 +14,7 @@
 		652D46C01B3F40E700F9CA21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652D46BF1B3F40E700F9CA21 /* Images.xcassets */; };
 		652D46C31B3F40E700F9CA21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652D46C11B3F40E700F9CA21 /* LaunchScreen.xib */; };
 		652D46CF1B3F40E800F9CA21 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D46CE1B3F40E800F9CA21 /* Git_TestTests.m */; };
+		652D46DA1B3F4A7900F9CA21 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D46D91B3F4A7900F9CA21 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		652D46C81B3F40E800F9CA21 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		652D46CD1B3F40E800F9CA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652D46CE1B3F40E800F9CA21 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		652D46D81B3F4A7900F9CA21 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		652D46D91B3F4A7900F9CA21 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				652D46BF1B3F40E700F9CA21 /* Images.xcassets */,
 				652D46C11B3F40E700F9CA21 /* LaunchScreen.xib */,
 				652D46B21B3F40E700F9CA21 /* Supporting Files */,
+				652D46D81B3F4A7900F9CA21 /* CCTest.h */,
+				652D46D91B3F4A7900F9CA21 /* CCTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				652D46BB1B3F40E700F9CA21 /* ViewController.m in Sources */,
+				652D46DA1B3F4A7900F9CA21 /* CCTest.m in Sources */,
 				652D46B81B3F40E700F9CA21 /* AppDelegate.m in Sources */,
 				652D46B51B3F40E700F9CA21 /* main.m in Sources */,
 			);
